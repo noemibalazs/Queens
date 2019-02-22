@@ -32,5 +32,10 @@ class HistoryActivity : AppCompatActivity() {
             val intent = Intent(this, MainSearchActivity::class.java)
             startActivity(intent)
         }
+
+        order_side.setOnClickListener {
+            val intent = Intent(this, SideSearchActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
