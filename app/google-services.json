@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "8831129422",
+    "firebase_url": "https://queens-cadfd.firebaseio.com",
+    "project_id": "queens-cadfd",
+    "storage_bucket": "queens-cadfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8831129422:android:37caa102b7f570f0",
+        "android_client_info": {
+          "package_name": "com.noemi.android.queens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8831129422-b7rpf74ce2de35g0tt6jlk7b1euefo64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3dipjCI75lDOyVVs8TKolJK6_du40GNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
