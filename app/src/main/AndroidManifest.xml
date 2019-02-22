@@ -12,10 +12,10 @@
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ui.LaunchActivity"
             android:label="@string/launch_label"
@@ -25,9 +25,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.MainActivity" />
         </activity>
+
         <activity
             android:name=".ui.MenuActivity"
             android:theme="@style/AppTheme.ActionBar.Transparent" />
+
         <activity
             android:name=".ui.HistoryActivity"
             android:label="@string/istoric"
@@ -36,8 +38,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.LaunchActivity" />
         </activity>
-        <activity android:name=".ui.AllOrdersActivity"
+
+        <activity
+            android:name=".ui.AllOrdersActivity"
             android:label="@string/all_order"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+
+        <activity android:name=".ui.DataSearchActivity"
             android:parentActivityName=".ui.HistoryActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

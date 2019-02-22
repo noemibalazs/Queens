@@ -17,5 +17,10 @@ class HistoryActivity : AppCompatActivity() {
             val intent = Intent(this, AllOrdersActivity::class.java)
             startActivity(intent)
         }
+
+        order_data.setOnClickListener{
+            val intent = Intent(this, DataSearchActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

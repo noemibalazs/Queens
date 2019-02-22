@@ -45,4 +45,9 @@
     <string name="format">Data: %s - supa: %s - felul doi: %s - garnitura: %s</string>
     <string name="data">Data:</string>
     <string name="data_template">Sambata 2, februarie 2019</string>
+    <string name="search">Search</string>
+    <string name="search_after_date">Cauta dupa data</string>
+    <string name="search_after_soup">Cauta dupa felul 1</string>
+    <string name="search_after_main">Cauta dupa felul 2</string>
+    <string name="search_after_side">Cauta dupa garnitura</string>
 </resources>
