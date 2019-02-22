@@ -27,5 +27,10 @@ class HistoryActivity : AppCompatActivity() {
             val intent = Intent(this, SoupSearchActivity::class.java)
             startActivity(intent)
         }
+
+        order_main.setOnClickListener {
+            val intent = Intent(this, MainSearchActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
